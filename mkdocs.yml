@@ -1,0 +1,103 @@
+# Project information
+site_name: Hackthebox Solutions
+site_description: A compilation of writeups for the website- [**https://www.hackthebox.eu/](https://www.hackthebox.eu/**).
+site_author: Rushi Chaudhari
+site_url: http://hacktheboxsolutions.github.io
+
+# Repository
+repo_name: hacktheboxsolutions.github.io
+repo_url: https://github.com/hackthebox-solutions/hacktheboxsolutions.github.io
+
+# Copyright
+copyright: Built by <a href="http://github.com/rushic24">Rushi</a> &copy; 2020
+
+# Configuration
+theme:
+  name: material
+  language: en
+  custom_dir: custom
+  favicon: assets/favicon.png
+  palette:
+    primary: teal
+    accent: blue
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    logo: octicons/globe
+    repo: fontawesome/brands/github
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github-square
+      link: https://github.com/rushic24
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/rushichaudhari
+    - icon: fontawesome/solid/code
+
+extra_css:
+  - css/katex.css
+  - css/custom.css
+  - https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css
+
+extra_javascript:
+  - js/katex.js
+  - https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js
+  - https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js
+
+# Google Analytics
+# google_analytics:
+#   - UA-117404761-1
+#   - auto
+
+# Extensions
+markdown_extensions:
+  - pymdownx.highlight:
+      linenums: true
+      linenums_style: pymdownx-inline
+  - toc:
+      permalink: false
+  - pymdownx.superfences
+
+nav:
+  - Preface: index.md
+  - I Retired:
+      - 1. Access Writeup.md: Retired/Access Writeup.md
+      - 2. Jerry Writeup.md: Retired/Jerry Writeup.md
+      - 3. Blue Writeup w/o Metasploit.md: Retired/Blue Writeup wo Metasploit.md
+      - 4. Blocky Writeup.md: Retired/Blocky Writeup.md
+      - 5. Calamity Writeup.md: Retired/Calamity Writeup.md
+      - 6. Devoops Writeup.md: Retired/Devoops Writeup.md
+      - 7. Apocalyst Writeup.md: Retired/Apocalyst Writeup.md
+      - 8. Poison Writeup w/o Metasploit.md: Retired/Poison Writeup wo Metasploit.md
+      - 9. Postman Writeup.md: Retired/Postman Writeup.md
+      - 10. Beep Writeup.md: Retired/Beep Writeup.md
+      - 11. Help Writeup.md: Retired/Help Writeup.md
+      - 12. Mirai Writeup.md: Retired/Mirai Writeup.md
+      - 13. Curling Writeup.md: Retired/Curling Writeup.md
+      - 14. Nibbles Writeup w/o Metasploit.md: Retired/Nibbles Writeup wo Metasploit.md
+      - 15. Valentine Writeup w/o Metasploit.md: Retired/Valentine Writeup wo Metasploit.md
+      - 16. Popcorn Writeups.md: Retired/Popcorn Writeups.md
+      - 17. Cronos Writeup.md: Retired/Cronos Writeup.md
+      - 18. Legacy Writeup.md: Retired/Legacy Writeup.md
+      - 19. Openadmin Writeup.md: Retired/Openadmin Writeup.md
+      - 20. Bank Writeup.md: Retired/Bank Writeup.md
+      - 21. Shocker Writeup w/o Metasploit.md: Retired/Shocker Writeup wo Metasploit.md
+      - 22. Luke Writeup.md: Retired/Luke Writeup.md
+      - 23. Arctic Writeup w/o Metasploit.md: Retired/Arctic Writeup wo Metasploit.md
+      - 24. Granny Writeup.md: Retired/Granny Writeup.md
+      - 25. Netmon Writeup.md: Retired/Netmon Writeup.md
+      - 26. Sense Writeup w/o Metasploit.md: Retired/Sense Writeup wo Metasploit.md
+      - 27. Sunday Writeup w/o Metasploit.md: Retired/Sunday Writeup wo Metasploit.md
+      - 28. Solidstate Writeup w/o Metasploit.md: Retired/Solidstate Writeup wo Metasploit.md
+      - 29. Celestial Writeup.md: Retired/Celestial Writeup.md
+      - 30. Tenten Writeup.md: Retired/Tenten Writeup.md
+      - 31. Optimum Writeup.md: Retired/Optimum Writeup.md
+      - 32. Haircut Writeup.md: Retired/Haircut Writeup.md
+      - 33. Irked Writeup.md: Retired/Irked Writeup.md
+      - 34. Chatterbox Writeup w/o Metasploit.md: Retired/Chatterbox Writeup wo Metasploit.md
+      - 35. Bashed Writeup.md: Retired/Bashed Writeup.md
+      - 36. Lame Writeup.md: Retired/Lame Writeup.md
+      - 37. Grandpa Writeup.md: Retired/Grandpa Writeup.md
+      - 38. Swagshop Writeup.md: Retired/Swagshop Writeup.md
