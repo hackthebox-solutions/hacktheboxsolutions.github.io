@@ -3,10 +3,8 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/completion-81%25-blue.svg" />
-  <a href="https://github.com/hackthebox-solutions/hacktheboxsolutions.github.io/contributors" alt="Contributors">
-    <img src="https://img.shields.io/github/contributors/walkccc/CLRS.svg" />
-  </a>
+  <img src="https://img.shields.io/badge/completion-25%25-blue.svg" />
+  <a href="https://github.com/hackthebox-solutions/hacktheboxsolutions.github.io/contributors" alt="Contributors"></a>
   <img src="https://img.shields.io/badge/made%20with-Markdown-1f425f.svg" />
   <img src="https://img.shields.io/badge/made%20with-KaTeX-1f425f.svg" />
   <img src="https://img.shields.io/badge/PRs-welcome-1abc9c.svg" />
